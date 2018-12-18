@@ -17,14 +17,13 @@
     },
     data() {
       return {
-        interval: 40,
+        interval: 1,
         currentStyle: '',
         enableHtml: false,
         fullStyle: [
 `/**
-  * Inspired by http://strml.net/
-  * 仰望着大佬的同时, 我也来写一份简历！
   * 大家好，我是庞晓豹
+  * 这是我的个人简历
   */
   /* 首先给所有元素加上过渡效果 */
   * {
@@ -111,19 +110,34 @@
         fullMarkdown: `庞晓豹
 ----
 资深前端工程师，目前就职于杭州帅拓网络软件部。
-技能
+个人技能
 ----
-* 前端开发
-* Node.js 开发
+* 精通 html5，css3，javascript，了解 typescript。
+* 熟悉 vue.js + vue-router + vuex + es6 + webpack + axios + sass + karma 技术栈。
+* 了解 node.js + koa2 + koa-router+ Sequelize-cli 技术栈。
+* 熟悉微信小程序和微信公众号以及钉钉 E 应用开发。
+* 熟练使用 element-ui，vux-ui，vant-ui，cube-ui 结合 px2rem 构建跨端应用。
+* 熟练使用 vue.js, 并理解其设计原理，以及开发自己的 ui 组件库，并对其进行自动化集成测试。
+* 使用 Electron 构建跨平台的桌面应用。
+* 了解 linux 服务器的搭建以及项目部署。
+
+工作职责
+----
+* 承担 web 前端核心模块的设计、实现工作。
+* 承担主要开发工作， 对代码质量及进度负责。
+* 参与进行关键技术验证以及技术选型工作。
+* 参与需求分析， 预估开发时间。
+* 参与公司 ui 框架的开发。
 
 工作经历
 ----
-1. 杭州爱聚科技有限公司
-2. 杭州帅拓网络有限公司
+* 2018.4-至今 杭州帅拓网络科技有限公司。
+* 2016.9-2018.4 杭州爱聚科技有限公司。
+* 2015.8-2016.8 上海文军科技有限公司。
 
 链接
 ----
-* [GitHub](https://github.com/18037166365)
+* [GitHub](https://github.com/18037166365/resume)
 `
       }
     },
